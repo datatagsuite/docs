@@ -50,7 +50,7 @@ clean:
 
 .PHONY: html
 html:
-	cp $(BUILDDIR)/../../json-schemas/dataset_distribution_schema.json $(BUILDDIR)/../source/_static
+	curl -L http://w3id.org/dats/schema/dataset_distribution_schema.json --output  $(BUILDDIR)/../source/_static/dataset_distribution_schema.json
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
