@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7. Dataset About &mdash; dats-doc 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="8. Dataset Provenance" href="dataset_provenance.html" />
+    <link rel="prev" title="6. Dataset Creator(s)" href="dataset_creator.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> dats-doc
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="first_steps.html">1. First Steps with DATS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dats.html">2. DATS Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dats_material_counting_things.html">3. DATS Counting things:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dats_measuring_things.html">4. DATS Measuring things:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataset_distribution.html">5. Dataset Distribution</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataset_creator.html">6. Dataset Creator(s)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7. Dataset About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataset_provenance.html">8. Dataset Provenance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">9. Frequently Asked Questions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">dats-doc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>7. Dataset About</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/dataset_about.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dataset-about">
+<h1>7. Dataset About<a class="headerlink" href="#dataset-about" title="Permalink to this headline">¶</a></h1>
+<p>Describing what the dataset is about (i.e what was the scope, objective, materials) and providing information about the type of data associated with the given dataset:</p>
+<ul class="simple">
+<li>Document the nature of information available in a dataset through the Biocaddie <strong>‘data type’</strong> object.</li>
+</ul>
+<img alt="A conceptual map detailing Biocaddie DATS data-type qualifiers and data distribution descriptors ." src="_images/DATS-v2.1-alpha-Distribution-Relation-and-Qualifiers.png" />
+<p>In this context, the <em>‘data type’</em> required to annotate a DataSet should be viewed as a <em>content type</em> [terminology needs to be specified]). This encompasses the nature of the signal recorded in a dataset or information content of interest. For instance: gene expression data or phenotypic data, electronic health records
+But mime-type may be used.
+* chemical
+* sequence
+* spectrum
+* audio
+* image
+* video
+* …</p>
+<p>but other descriptors may be used such as Biosharing, Scicrunch or re3data category/data domain descriptors.</p>
+<ul>
+<li><p class="first">Data aggregation type:</p>
+<p>In the context of DataMed indexing, the information obtained from repositories may correspond to datasets served individually or may correspond to collections or records. As these 2 situations represent a very different metadata context, the Biocaddie DATS model allows to distinguish between the two cases.</p>
+</li>
+<li><p class="first">collection (as in ‘collection of instances’)</p>
+</li>
+<li><p class="first">singleton (as in ‘individual instance’)</p>
+</li>
+<li><p class="first">Data refinement type:</p>
+</li>
+</ul>
+<p>To describe the level of data processing associated with the data available from the dataset and its distributions….[terminology needs to be specified])</p>
+<blockquote>
+<div><ul class="simple">
+<li>raw data</li>
+<li>preprocessed data</li>
+<li>analyzed data</li>
+<li>summarized data</li>
+<li>curated data</li>
+<li>reannotated data</li>
+<li>…</li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p class="first">data privacy protection type: (applicable only to human/clinical data)</p>
+<blockquote>
+<div><ul class="simple">
+<li>fully identifiable none</li>
+<li>pseudo-anonymized data</li>
+<li>fully anonymized data</li>
+<li>not information available</li>
+<li>…</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Document the Material, object, scope and Biological Entities  the dataset is about and their characteristics or properties.</p>
+</li>
+<li><p class="first">Document the nature of intervention and Treatment applied to the Material, if any or if applicable.</p>
+</li>
+<li><p class="first">Data Types and specific Platform</p>
+</li>
+</ul>
+<p>Currently, in DataMed, datasets can be search according to Data Type (.e.g Proteomics data) and/or by Platform (e.g. Illumina)
+DATS provides a mechanism via DataType object to qualify the nature of the data collected in a Dataset. The 4 facets/attributes allow to incrementally specify the type of information contained by the data and how it has been produced</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt>data acquisition / method type:</dt>
+<dd>This attribute allows to indicate the technique or technology , also known sometimes as data modality used to acquire the signal. For instance:<ul class="last">
+<li>‘crystallography’,</li>
+<li>‘mass spectrometry’</li>
+<li>‘nucleic acid sequencing’,</li>
+<li>‘computational simulation’</li>
+<li>‘questionaire based survey’</li>
+<li>‘nuclear magnetic resonance spectroscropy’</li>
+<li>‘nuclear magnetic resonance imaging’</li>
+<li>‘questionnaire’</li>
+<li>…</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>platform/instrument type</dt>
+<dd><ul class="first last">
+<li>Agilent, Bruker,Affymetrix,Illumina,SeaHorse</li>
+<li>HumanHap550v3.0</li>
+<li>HumanExome-12 v1.1 BeadChip</li>
+<li>Sentrix Human-6 Expression BeadChip</li>
+<li>SureSelect Human All Exon v2 - 44Mb</li>
+<li>HiSeq 2000</li>
+<li>…</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="dataset_provenance.html" class="btn btn-neutral float-right" title="8. Dataset Provenance" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="dataset_creator.html" class="btn btn-neutral" title="6. Dataset Creator(s)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Philippe Rocca-Serra and Alejandra Gonzalez-Beltran.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
