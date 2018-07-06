@@ -77,7 +77,7 @@
 <li class="toctree-l1">
     <a class="reference internal" href="#">2. DATS Model</a>
     <ul>
-        <li ng-repeat="(key, item) in documenter.loaded_specs">
+        <li class="toctree-l2" ng-repeat="(key, item) in documenter.loaded_specs">
             <a class="reference internal" ng-href="#{{key|removeExtraStr}}" target="_self">{{item.title}}</a>
         </li>
     </ul>
