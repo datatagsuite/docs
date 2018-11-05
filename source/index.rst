@@ -3,17 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to bioCADDIE DATS's documentation
-=========================================
+Welcome to Data Tag Suite (DATS) model's documentation
+======================================================
 
 Introduction:
 -------------
 
-DATS, which stands for DAta Tag Suite, is a data description model designed and produced to describe datasets being ingested in `DataMed <http://datamed.org>`_, a prototype for data discovery developed as part of the `NIH Big Data 2 Knowledge <https://datascience.nih.gov/bd2k>`_ `bioCADDIE project <http://biocaddie.org/>`_.
+DATS, which stands for DAta Tag Suite, is a data description model originally designed and produced to describe datasets being ingested in `DataMed <http://datamed.org>`_, a prototype for data discovery developed as part of the `NIH Big Data 2 Knowledge <https://datascience.nih.gov/bd2k>`_ `bioCADDIE project <http://biocaddie.org/>`_.
+Since its inception and implementation for data discoverability, it has been expanded to include other aspects of datasets descriptions, allowing for finer-grain data integration, with the `NIH Data Commons Pilot project <https://nihdatacommons.us/>`_.
 
-For more information about DATS, please check the DATS pre-print available in `bioarxiv <https://doi.org/10.1101/103143>`_.
-For more information about DataMed, please check the DataMed pre-print available in `bioarxiv <https://doi.org/10.1101/094888>`_.
+For more information about DATS, please check the DATS publication in `Scientific Data <https://doi.org/10.1038/sdata.2017.59>`_, whose pre-print is available in `bioarxiv <https://doi.org/10.1101/103143>`_.
+For more information about DataMed, please check the DataMed publication in `Nature Genetics <https://doi.org/10.1038/ng.3864>`_, whose pre-print available in `bioarxiv <https://doi.org/10.1101/094888>`_.
 For more information about the objectives of the bioCADDIE project, please have a look at the `bioCADDIE White Paper <https://doi.org/10.6084/m9.figshare.1362572.v1>`_.
+For more information about the NIH Data Commons Pilot project, visit the `website <https://nihdatacommons.us/>`_.
 
 
 This documentation describes the DATS model and how to use it. More details about how DATS was designed and how it relates to other models can be found in the aforementioned documents as well as in the `documents accompanying each of the releases <https://github.com/biocaddie/WG3-MetadataSpecifications/tree/master/doc>`_.
